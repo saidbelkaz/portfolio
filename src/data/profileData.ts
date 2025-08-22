@@ -170,7 +170,7 @@
 
 import { ExperienceType, EducationType, CertificationType, SkillType, TechnologyType } from '../types';
 
-export const personalInfo = { 
+export const personalInfo = {
   name: "Said BELKAZ",
   title: "Développeur Web & Mobile | Microservices | iOS | Android | DevOps & Cloud",
   about: "Développeur Web & Mobile passionné, je conçois des solutions performantes pour les plateformes web, iOS et Android. Mon objectif est de créer des applications fiables et centrées sur l'utilisateur, tout en veillant à la qualité du code et à la satisfaction des utilisateurs. Je travaille de manière collaborative avec des équipes dynamiques, en contribuant à l'ajout de nouvelles fonctionnalités, à la maintenance des plateformes, et en assurant une approche méthodique et orientée vers les résultats.",
