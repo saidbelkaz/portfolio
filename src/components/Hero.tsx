@@ -63,6 +63,14 @@ const Hero: React.FC = () => {
             </div>
             <div className="space-x-4 animate-fadeInUp animation-delay-300">
               <a
+                href={personalInfo.contact.cv}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all inline-block"
+              >
+                Télécharger mon CV Format PDF
+              </a>
+              <a
                 href="#contact"
                 className="px-6 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all inline-block"
               >

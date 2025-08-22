@@ -181,7 +181,8 @@ export const personalInfo = {
     location: "Casablanca, Maroc",
     linkedin: "saidbelkaz",
     github: "saidbelkaz",
-    website: "belkaz.me",
+    website: "belkaz.vercel.app",
+    cv: "/portfolio/CV_Said_BELKAZ.pdf",
     dateOfBirth: "12/12/2001"
   },
   workPreference: "Télétravail ou présentiel",
