@@ -27,7 +27,7 @@ const Skills: React.FC = () => {
           </h3>
 
           <div className="space-y-8">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
               {skills.map((category, categoryIndex) => (
                 <div key={category.id}>
                   <h4 className="text-lg font-medium text-gray-800 dark:text-gray-200 mb-4">
