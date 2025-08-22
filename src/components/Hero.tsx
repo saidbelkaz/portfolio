@@ -61,27 +61,29 @@ const Hero: React.FC = () => {
                 <span>{personalInfo.contact.location}</span>
               </span>
             </div>
-            <div className="space-x-4 animate-fadeInUp animation-delay-300">
+            <div className="flex flex-col gap-4">
               <a
                 href={personalInfo.contact.cv}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all inline-block"
+                className="px-6 py-3 w-fit bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all inline-block"
               >
                 Télécharger mon CV Format PDF
               </a>
-              <a
-                href="#contact"
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all inline-block"
-              >
-                Me contacter
-              </a>
-              <a
-                href="#experience"
-                className="px-6 py-3 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-medium rounded-lg shadow-md hover:shadow-lg transition-all inline-block"
-              >
-                Mon parcours
-              </a>
+              <div className="space-x-4 animate-fadeInUp animation-delay-300">
+                <a
+                  href="#experience"
+                  className="px-6 py-3 bg-white border border-gray-300 dark:border-gray-700 dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-medium rounded-lg shadow-md hover:shadow-lg transition-all inline-block"
+                >
+                  Mon parcours
+                </a>
+                <a
+                  href="#contact"
+                  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all inline-block"
+                >
+                  Me contacter
+                </a>
+              </div>
             </div>
           </div>
           <div className="order-1 md:order-2 flex justify-center">
